@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Mario Jump</title>
+</head>
+<body>
+    
+    <!--game functions-->
+    <form name="form_main">
+
+
+        <!--game layout-->
+        <div class="game-board">
+
+            
+        <div class="backdrop-start">
+            <button type="button" name="start" id="start" onclick="iniciar()">start</button>
+        </div>
+
+            <div class="time">
+                <span class="time-span">TIME</span>
+                <span id="second">00</span>
+            </div>
+
+            <img src="./img/clouds.png" class="clouds">
+            <img src="./img/mario.gif" class="mario">
+            <img src="./img/pipe.png" class="pipe">
+        </div>
+
+        
+        <div class="backdrop-reset">
+            <button type="button" name="reset">reset</button>
+        </div>
+
+      </form>
+
+
+    <footer>
+        <div class="credits"><a href="https://www.instagram.com/will_tnc/" target="_blank">William Rodriguês</a></div>
+    </footer>
+
+    <script src="js/mario.js"></script>
+</body>
+</html>
